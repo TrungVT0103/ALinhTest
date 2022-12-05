@@ -1,0 +1,59 @@
+.listItem {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.item {
+    padding: 15px;
+    flex-basis: 20%;
+    &_img {
+        width: 100%;
+        height: 200px;
+    }
+    &:hover {
+        cursor: pointer;
+        box-shadow:  0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.dialog {
+    display: flex;
+    width: 90vw;
+    min-width: 1250px;
+    height: 60vh;
+    padding: 20px;
+    &_price {
+        background: rgb(245, 245, 250);
+        width: 400px;
+        height: 55px;
+        padding: 10px;
+    }
+    &_description {
+        padding-top: 20px;
+        border-top: solid 1px #66636326;
+    }
+}
+
+.wrapAvatar {
+    flex-basis: 30%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-right: solid 1px #66636326;
+}
+
+.avatar {
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+.addMoreDialog {
+    padding: 20px;
+    width: 90vw;
+    min-width: 850px;
+}
